@@ -1,5 +1,39 @@
 # LandingPage
 
+Desenvolvi uma Landing Page moderna e responsiva utilizando Angular standalone components, explorando os recursos mais recentes do framework.
+
+🔧 Tecnologias & Recursos Utilizados
+
+Angular Standalone Components → eliminei a necessidade de módulos extras, deixando o código mais simples e performático.
+
+@if e novos control flow templates → melhor organização e legibilidade na renderização condicional.
+
+Signals → gerenciamento reativo de estado sem dependência de bibliotecas externas.
+
+Responsividade completa → adaptada para celular, tablet, monitores médios e grandes (até 32").
+
+Arquitetura organizada → seções divididas em componentes reaproveitáveis (main-section, benefit-section, cta-section, benefit-card).
+
+Boas práticas de estilo → SCSS modular, tipografia clara e imagens responsivas (ngSrc com otimização de carregamento).
+
+🎯 Objetivo
+
+A Landing Page foi construída para ser leve, performática e moderna, servindo como vitrine de boas práticas no Angular mais atual.
+
+
+## 📸 Screenshot da Estrutura do Projeto
+
+<h3 align="center">📸 Screenshots</h3>
+
+<table>  
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/7e39f9f6-5f00-4daf-857f-54e7ac6d9881" width="80"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a251cac0-6457-42b0-ae71-511e1807ee1d" width="80"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1c12ab5e-6ad2-4316-aa1c-e8f1352a30be" width="80"/></td>
+  </tr>
+</table>
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.1.
 
 ## Development server
