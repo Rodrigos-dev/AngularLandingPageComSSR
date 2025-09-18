@@ -23,8 +23,7 @@ A Landing Page foi construída para ser leve, performática e moderna, servindo 
 
 🌐 Demo Online
 
-🔗 angular-landing-page
-
+🔗 angular-landing-page-com-ssr.vercel.app
 
 ## 📸 Screenshot da Estrutura do Projeto
 
