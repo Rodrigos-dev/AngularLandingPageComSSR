@@ -27,9 +27,9 @@ A Landing Page foi construída para ser leve, performática e moderna, servindo 
 
 <table>  
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/7e39f9f6-5f00-4daf-857f-54e7ac6d9881" width="80"/></td>
-    <td><img src="https://github.com/user-attachments/assets/a251cac0-6457-42b0-ae71-511e1807ee1d" width="80"/></td>
-    <td><img src="https://github.com/user-attachments/assets/1c12ab5e-6ad2-4316-aa1c-e8f1352a30be" width="80"/></td>
+    <td><img src="https://github.com/user-attachments/assets/7e39f9f6-5f00-4daf-857f-54e7ac6d9881" width="120"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a251cac0-6457-42b0-ae71-511e1807ee1d" width="120"/></td>
+    <td><img src="https://github.com/user-attachments/assets/1c12ab5e-6ad2-4316-aa1c-e8f1352a30be" width="120"/></td>
   </tr>
 </table>
 
