@@ -21,6 +21,11 @@ Boas práticas de estilo → SCSS modular, tipografia clara e imagens responsiva
 A Landing Page foi construída para ser leve, performática e moderna, servindo como vitrine de boas práticas no Angular mais atual.
 
 
+🌐 Demo Online
+
+🔗 angular-landing-page
+
+
 ## 📸 Screenshot da Estrutura do Projeto
 
 <h3 align="center">📸 Screenshots</h3>
