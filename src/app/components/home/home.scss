@@ -1,0 +1,182 @@
+@import "../../../color-variables.scss";
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 20px;
+
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px; // margem interna para telas pequenas
+}
+
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;  
+
+  span {
+    font-size: 14px;
+    font-weight: 700;
+    color: $secondary-text;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: $primary-text;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.benefit-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;    
+  gap: 20px;
+  width: 100%; // ocupa largura total
+  padding: 0 10px; // margem interna pra não encostar na borda 
+  
+
+  .benefit-data {
+    border-bottom: 4px solid $secondary-color;
+    padding-bottom: 12px;
+    max-width: 100%; // evita estourar   
+
+    h2 {
+      font-size: 22px; // menor no celular
+      font-weight: 600;
+      font-family: "Roboto", sans-serif;
+      color: $primary-text;
+      text-align: center;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.4;
+    max-width: 100%; // garante que não passe da tela
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+
+    b {
+      background: -webkit-linear-gradient(180deg, $light-primary-color, $secondary-color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-style: normal;
+    }
+  }  
+}
+
+.cta-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: $primary-text;
+    margin: 0 0 20px;
+    text-align: center;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main-section {
+    flex-direction: row;
+    text-align: left;
+    span {
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 48px;
+    }
+  }
+
+  .benefit-section {
+    flex-direction: row;
+    .benefit-data h2 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 24px;
+    }
+  }
+
+  .cta-section h2 {
+    font-size: 36px;
+  }
+}
+
+/* Monitor médio (ex: notebook até ~1440px) */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .main-section {
+    span {
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 60px;
+    }
+  }
+
+  .benefit-section {
+    .benefit-data h2 {
+      font-size: 48px;
+    }
+    p {
+      font-size: 32px;
+    }
+  }
+
+  .cta-section h2 {
+    font-size: 48px;
+  }
+}
+
+/* Monitores grandes (1440px+) */
+@media (min-width: 1440px) {
+  .main-section {
+    span {
+      font-size: 20px;
+    }
+    h1 {
+      font-size: 72px;
+    }
+  }
+
+  .benefit-section {
+    flex-direction: row;
+    gap: 40px;
+    .benefit-data h2 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 40px;
+    }
+  }
+
+  .cta-section h2 {
+    font-size: 60px;
+  }
+}
